@@ -5,8 +5,10 @@ curl -sL https://rpm.nodesource.com/setup_lts.x | bash
 dnf install nodejs -y
 
 useradd roboshop
+
 mkdir /app
 curl -o /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/catalogue.zip
+rm -rf /app/*
 cd /app
 unzip /tmp/catalogue.zip
 
