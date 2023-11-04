@@ -1,3 +1,4 @@
+set -x
 script_location=$(pwd)
 dnf install nginx -y
 rm -rf /usr/share/nginx/html/*
