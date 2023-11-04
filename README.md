@@ -5,7 +5,7 @@ printing
 
 variables 
 
-condition
+conditions
 
 sed
 
