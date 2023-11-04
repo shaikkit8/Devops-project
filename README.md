@@ -2,7 +2,10 @@
 
 Shell scripting
 printing
+
 variables 
-conditions
+
+condition
+
 sed
 
